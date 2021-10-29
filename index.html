@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.svg" alt="">
+
+        <h1>TO DO LIST</h1>
+        
+        <div>
+            <i class="fas fa-tasks"></i>
+            <span>2 / 3</span>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <input type="text" placeholder="Ajouter une tâche">
+            <button>Ajouter</button>
+        </form>
+
+        <ul>
+            <li>
+                <i class="far fa-square fa-2x"></i>            
+                <span>Trouver un job</span>
+                <button><i class="fas fa-trash fa-2x"></i></button>
+            </li>
+            <li class="done">
+                <i class="far fa-check-square fa-2x"></i>            
+                <span>Apprendre React.JS</span>
+                <button><i class="fas fa-trash fa-2x"></i></button>
+            </li>
+            <li class="done">
+                <i class="far fa-check-square fa-2x"></i>            
+                <span>Découvrir Formacitron</span>
+                <button><i class="fas fa-trash fa-2x"></i></button>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        Copyright &copy; 2021 Formacitron 
+    </footer>
+    
+</body>
+</html>
